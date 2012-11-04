@@ -1,0 +1,130 @@
+.vjs-controls{
+	display:none;
+}
+.info-bar{
+	width : 97% ; /* reduce 50px padding */
+	height : 20%;/*26.5% ; /* 145.803px, reduce 50px in width and height */
+	max-height:125px;
+	background-color : white ;
+	position:absolute;
+	left:0;
+	padding:1.5%;
+}
+
+.top .info-bar{ top: 0; }
+.bottom .info-bar{ bottom: 0; }	
+.middle{ margin-top:13px;}
+/* CSS3 Enhancements */
+.round{
+   -webkit-border-radius : 20px ;
+   -moz-border-radius : 20px ;
+   -ms-border-radius : 20px ;
+   -o-border-radius : 20px ;
+   border-radius : 20px ;
+}
+.shadow{
+	-webkit-box-shadow : 0 0 20px #888;
+}
+
+/*-- Action --*/
+.action{
+	background-color:white ;
+	position:absolute;
+	right:0;
+    width:87%; /* reducing 2x25px width // 270px */ 
+    padding:1.5%;
+
+    /*min-width:270px;
+    max-width:270px;*/
+}
+.action.contact{
+	/*height:95px; *//* reducing 2x25px height */ 
+	height:23%;
+	max-height:125px;
+}
+.action.qr{
+	height:65%;
+	max-height:350px;
+	/*min-height:330px;
+	*/
+	/*height:330px;*//* reducing 2x25px height */ 
+}
+
+
+.top .action.qr{
+	top:0;
+	left:5%;
+}
+.top .action.contact{
+	bottom:0;
+	left:5%;
+}
+.bottom .action.qr{
+	bottom:0;
+	left:5%;
+}
+.bottom .action.contact{
+	top:0;
+	left:5%;	
+}
+
+
+.content.qr-wrapper{
+    
+	width:95%;
+	height:95%;
+	max-height:275px;
+	/*max-width:270px;
+	max-height:275px ;
+	min-height:275px;*/
+	text-align:center;
+	margin-left:7px;
+	overflow:hidden;
+	position:relative;
+	/*background: url(../media/img/markers_qr_code.png) no-repeat left ;*/
+	
+}
+.content.qr-wrapper .marker{
+	position : absolute ;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.content.qr-wrapper .qr{
+	position:absolute;
+	width:90%;
+	height:90%;
+	left:5%;
+	top:7.7%;
+}
+
+.info-bar .logo-wrapper{
+	margin:0;
+	float:left;
+	height:100%;
+	width:15%;
+		/*width : 15%;*/
+	margin-right:10px;
+}
+
+.info-bar .logo{
+	width:100%;
+	height:auto;
+	max-height:95px ;
+	margin:0;
+}
+
+.info-bar .prd-detail{
+   float : left ;
+   width : 68%;
+}
+
+.info-bar .prd-price{
+	float: right;
+	text-align:right ;
+	width:15%;
+}
+
+
+
